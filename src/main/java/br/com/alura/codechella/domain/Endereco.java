@@ -1,3 +1,5 @@
+package br.com.alura.codechella.domain;
+
 public class Endereco {
     private String cep;
     private Integer numero;
@@ -8,29 +10,30 @@ public class Endereco {
         this.numero = numero;
         this.complemento = complemento;
     }
-    
-    public getCep(){
+
+    public String getCep() {
         return cep;
     }
 
-    public setCe(String cep){
+    public void setCep(String cep) {
         this.cep = cep;
     }
 
-    public getNumero(){
+    public Integer getNumero() {
         return numero;
     }
 
-    public setNumero(Integer numero){
+    public void setNumero(Integer numero) {
         this.numero = numero;
     }
 
-    public getComplemento(){
+    public String getComplemento() {
         return complemento;
     }
 
-    public setComplemento(String complemento){
+    public void setComplemento(String complemento) {
         this.complemento = complemento;
     }
-
+    
+    
 }
